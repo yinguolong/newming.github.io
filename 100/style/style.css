@@ -5,7 +5,7 @@
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-h1,h3{
+.top h1,h3{
 	color:#fff;
 }
 .top h3{
@@ -16,4 +16,6 @@ h1,h3{
 	background-color: lightseagreen;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	color:#fff;
+	font-weight: normal;
 }
