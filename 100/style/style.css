@@ -1,0 +1,19 @@
+*{margin:0;}
+.top{
+	text-align: center;
+	background-color: lightseagreen;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+h1,h3{
+	color:#fff;
+}
+.top h3{
+	margin-top: 20px;
+}
+.footer{
+	text-align: center;
+	background-color: lightseagreen;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
