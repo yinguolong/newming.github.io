@@ -1,0 +1,89 @@
+.top-inner .fir{
+	color: #66a738;
+	}
+.banner{
+	height: 204px;
+	clear: :both;
+	width: 960px;
+	margin-bottom: 30px;
+	}
+.banner .me img{
+	border-radius: 50%;
+	float:left;
+	border:2px solid #fff;
+	margin-left: 100px;
+	margin-right: 20px;
+}
+.banner .bye{
+	color:#fff;
+	line-height: 30px;
+}
+.banner h1{
+	line-height: 64px;
+}
+.sug{
+	float:left;
+	width: 520px;
+	padding-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 100px;
+}
+.sug h3{
+	color:#fbee0d;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+.sug .lab{
+	color:#fff;
+}
+.sug .last{
+	float:left;
+}
+.sug .area{
+	background-color: rgba(4,27,36,0.6);
+	font-size: 16px;
+	margin-top: 20px;
+	border:none;
+	border-bottom: 2px solid #031b28;
+	color:#fff;
+	width:480px;
+	resize: none;
+}
+.sug .input{
+	background-color: rgba(4,27,36,0.6);
+	height: 28px;
+	border:none;
+	border-bottom: 2px solid #031b28;
+	font-size: 16px;
+	width: 400px;
+	margin-bottom: 20px;
+	color:#fff;
+}
+.msg{
+	float:right;
+	width: 340px;
+	height: 385px;
+	padding-top: 30px;
+	color:#fff;
+	line-height: 30px;
+	margin-bottom: 30px;
+	background-image: url(../images/contacts.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+.msg h3{
+	color:#00a5e5;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.msg .button{
+	width: 100px;
+	height: 40px;
+	background-color: rgba(4,27,36,0.7);
+	font-size: 16px;
+	font-family: "黑体";
+	border:none;
+	color: #00a5e5;
+	border-radius: 10px;
+	margin-top: 15px;
+}

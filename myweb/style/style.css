@@ -1,0 +1,78 @@
+*{margin: 0;padding: 0;}
+body{
+	background-image: url(../images/bg.jpg);
+	font-family: "黑体";
+}
+.top{
+	background-image: url(../images/topbg.png);
+	height: 160px;
+	background-position: top center;
+}
+.top-inner{
+	width: 960px;
+	margin:0 auto;
+}
+.top-inner img{
+	float:left;
+	margin-top: 60px;
+}
+.top-inner li{
+	float:right;
+	list-style: none;
+	margin-left: 30px;
+	margin-top: 100px;
+}
+.top-inner a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	transition:all 1s;
+} 
+.top-inner a:hover{
+	color:#fbee0d;
+	text-decoration: underline;
+}
+.top-inner .fir{margin-right: 2px;}
+.top-inner .sec{margin-right: 3px;}
+.top-inner .thi{margin-right:9px;}
+.top-inner .for{margin-right:11px;}
+.top-inner .fif{margin-right: 4px;}
+.xian{
+	margin:0 auto;
+	width: 960px;
+	height: 2px;
+	background-image: url(../images/xian.png);
+	clear:both;
+}
+.footer{
+	height: 186px;
+	background-image: url(../images/footerbg.png);
+	background-position: center 0;
+	clear:both;
+}
+.footer-inner{
+	width: 960px;
+	margin:0 auto;
+	padding-top: 30px;
+	color:#c7cfd3;
+	font-family: arial;
+	font-size: 12px;
+	line-height: 20px;
+	}
+.footer-inner .leftpart{
+	float: left;
+	}
+.footer-inner img{
+	border:0;
+}
+.footer-inner span{
+	float:right;
+	}
+.content{
+	width: 960px;
+	margin:0 auto;
+	margin-top: 30px;
+	clear:both;
+	}
+/*以上部分为公共部分css*/
+
