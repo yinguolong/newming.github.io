@@ -34,7 +34,6 @@
 }
 .banner a:hover{
 	color:rgba(251,238,13,1);
-	text-decoration: underline;
 }
 .guild{
 	color:#c7cfd3;
@@ -86,6 +85,10 @@
 	height: 7em;
 	color:#fff;
 	width: 672px;
+	transition:all 1s;
+}
+.list .intro:hover{
+	box-shadow: 1px 1px 8px #888;
 }
 .list h3{
 	font-weight: normal;
