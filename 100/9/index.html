@@ -14,19 +14,22 @@
 			font-size: 18px;
 		}
 		pre{text-align: center;}
+		.music{
+			position: absolute;
+		}
 	</style>
 </head>
 <body>
 	<div class="top"><h1>越笑越难过</h1>
 		<h3>日期：2015.12.3</h3>
 	</div>
-	<audio controls="controls" hidden="hidden" autoplay="autoplay" loop="loop">
+	<div class="main">
+		<audio controls="controls" autoplay="autoplay" loop="loop" class="music">    <!-- hidden="hidden" 隐藏控制菜单 -->
 
 	<!-- <source src="你要播放的音乐.ogg" type="audio/ogg" /> -->
 	<source src="庄心妍 - 越笑越难过.mp3" type="audio/mpeg" />
 	</audio>
 	<!-- h5中的audio标签，不影响布局 -->
-	<div class="main">
 <pre>
 越笑越难过——庄心妍
 词：伊子木木
