@@ -1,7 +1,10 @@
-*{margin: 0;padding: 0;}
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
 	background-image: url(../images/bg.jpg);
-	font-family: "黑体";
+	font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 .top{
 	background-image: url(../images/topbg.png);
