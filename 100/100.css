@@ -1,0 +1,42 @@
+/*common   css*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+body{
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+/*section css*/
+.top{
+	height: 150px;
+	text-align: center;
+	background-color: lightseagreen;
+	line-height: 36px;
+	padding-top: 25px;
+	position: fixed;
+	width: 100%;
+}
+.main{
+	padding-top: 150px;
+}
+li{
+	margin-top: 20px;
+}
+.left{
+	float:left;
+}
