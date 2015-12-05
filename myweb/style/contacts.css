@@ -48,6 +48,7 @@
 	color:#fff;
 	width:480px;
 	resize: none;
+	outline: none;
 }
 .sug .input{
 	background-color: rgba(4,27,36,0.6);
@@ -58,6 +59,7 @@
 	width: 400px;
 	margin-bottom: 20px;
 	color:#fff;
+	outline: none;
 }
 .msg{
 	float:right;
