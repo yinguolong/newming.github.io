@@ -4,14 +4,10 @@
 video{float:left;margin:0 10px;}
 .right{float:left;}
 
-.banner .thi{transition:all 1s;width: 246px;height: 165px;margin-bottom: 6px;background-image: url(../images/game1.jpg);box-shadow: 0px 0px 2px 3px #041b24 inset;}
-.banner .for{transition:all 1s;width: 246px;height: 165px;background-image: url(../images/game3.jpg);box-shadow: 0px 0px 2px 3px #041b24 inset;}
-.banner .fir{transition:all 1s;width: 246px;height: 165px;margin-bottom: 6px;background-image: url(../images/game2.jpg);box-shadow: 0px 0px 2px 3px #041b24 inset;}
-.banner .sec{transition:all 1s;width: 246px;height: 165px;background-image: url(../images/game4.jpg);box-shadow: 0px 0px 2px 3px #041b24 inset;}
-.banner .thi:hover{background-image: url(../images/game1.png);}
-.banner .for:hover{background-image: url(../images/game3.png);}
-.banner .fir:hover{background-image: url(../images/game2.png);}
-.banner .sec:hover{background-image: url(../images/game4.png);}
+.banner .thi{width: 246px;height: 165px;margin-bottom: 6px;background-image: url(../images/game1.jpg);box-shadow: 0px 0px 2px 3px #041b24 inset;}
+.banner .for{width: 246px;height: 165px;background-image: url(../images/game3.jpg);box-shadow: 0px 0px 2px 3px #041b24 inset;}
+.banner .fir{width: 246px;height: 165px;margin-bottom: 6px;background-image: url(../images/game2.jpg);box-shadow: 0px 0px 2px 3px #041b24 inset;}
+.banner .sec{width: 246px;height: 165px;background-image: url(../images/game4.jpg);box-shadow: 0px 0px 2px 3px #041b24 inset;}
 .banner a{
 	text-decoration: none;
 	width: 246px;
@@ -21,6 +17,11 @@ video{float:left;margin:0 10px;}
 	text-align: center;
 	line-height: 165px;
 	font-size: 32px;
+	background-color: rgba(0,0,0,0);
+	transition:all 1s;
+}
+.banner a:hover{
+	background-color: rgba(0,0,0,0.5);
 }
 .head{
 	clear:both;
