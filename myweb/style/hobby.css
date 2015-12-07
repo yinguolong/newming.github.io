@@ -72,5 +72,8 @@
 .third{float: left;width: 292px;height: 292px;margin-top: 10px;background-image: url(../images/hobby3.png);}
 .forth{float: right;width: 292px;height: 292px;margin-left: 10px;margin-top: 10px;background-image: url(../images/hobby4.png);}
 .right h1{color:#fff;font-weight: normal;margin:20px;}
-.right img{float:left;margin: 20px;padding-bottom: 40px;}
+.right img{float:left;margin: 20px;padding-bottom: 40px;transition:transform 1s;}
+.right img:hover{
+	transform:rotateY(180deg);
+}
 .right p{margin-right: 20px;color:#fff;line-height: 24px;}
