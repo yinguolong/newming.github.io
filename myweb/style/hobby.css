@@ -24,17 +24,41 @@
 .banner{
 	width: 960px;
 	height: 236px;
-	clear:both;
 	padding-top:20px;
 }
-.pic1{width: 216px;height: 216px;background-image: url(../images/PS.jpg);float: left;margin-right: 32px;transition:background-image 2s}
-.pic2{width: 216px;height: 216px;background-image: url(../images/AI.jpg);float: left;margin-right: 32px;transition:background-image 2s}
-.pic3{width: 216px;height: 216px;background-image: url(../images/DW.jpg);float: left;margin-right: 32px;transition:background-image 2s}
-.pic4{width: 216px;height: 216px;background-image: url(../images/FL.jpg);float: left;transition:background-image 2s}
-.pic1:hover{background-image: url(../images/PS.png);}
-.pic2:hover{background-image: url(../images/AI.png);}
-.pic3:hover{background-image: url(../images/DW.png);}
-.pic4:hover{background-image: url(../images/FL.png);}
+.banner .pic{
+	width: 216px;
+	height: 216px;
+	float: left;
+	margin-right: 32px;
+	overflow: hidden;
+	box-shadow: 0 0 10px 2px #041b24 inset;
+	position: relative;
+}
+.banner .nor{
+	margin-right: 0;
+}
+.banner img{
+	transition:all 1s;
+	transform:scale(0.9,0.9);
+}
+.banner p{
+	position: absolute;
+	top:220px;
+	left: 0px;
+	color: #fff;
+	font-size: 24px;
+	background-color: rgba(100,100,100,0.7);
+	width: 216px;
+	text-align: center;
+	transition:all 1s;
+}
+.banner .pic:hover img{
+	transform:scale(1,1);
+}
+.banner .pic:hover p{
+	top:152px;
+}
 .main{clear:both;
 	margin-top: 20px;
 }
