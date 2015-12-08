@@ -56,12 +56,18 @@ video{float:left;margin:0 10px;}
 	float:left;
 	border:10px solid #041b24;
 }
-.main .pic1{width: 285px;height: 166px;background-image: url(../images/gamemain1.jpg);margin-top: 22px;transition:all 1s}
-.main .pic2{width: 285px;height: 166px;background-image: url(../images/gamemain2.jpg);margin-top: 22px;transition:all 1s}
-.main .pic3{width: 285px;height: 166px;background-image: url(../images/gamemain3.jpg);margin-top: 22px;transition:all 1s}
-.main .pic4{width: 285px;height: 166px;background-image: url(../images/gamemain4.jpg);margin-top: 22px;transition:all 1s}
-.main .pic5{width: 285px;height: 166px;background-image: url(../images/gamemain5.jpg);margin-top: 22px;transition:all 1s}
-.main .pic6{width: 285px;height: 166px;background-image: url(../images/gamemain6.jpg);margin-top: 22px;transition:all 1s}
+.main .pic1,.pic2,.pic3,.pic4,.pic5,.pic6{
+	width: 285px;
+	height: 166px;
+	margin-top: 22px;
+	transition:all 1s;
+}
+.main .pic1{background-image: url(../images/gamemain1.jpg);}
+.main .pic2{background-image: url(../images/gamemain2.jpg);}
+.main .pic3{background-image: url(../images/gamemain3.jpg);}
+.main .pic4{background-image: url(../images/gamemain4.jpg);}
+.main .pic5{background-image: url(../images/gamemain5.jpg);}
+.main .pic6{background-image: url(../images/gamemain6.jpg);}
 .main .pic2,.pic5{
 	margin-left: 22px
 	;margin-right: 23px;
