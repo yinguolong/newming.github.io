@@ -5,23 +5,6 @@
 	<title>我的博客-首页</title>
 	<link rel="stylesheet" href="style/style.css" />
 	<link rel="stylesheet" href="style/index2.css" />
-	<script>
-	window.onload = rotate;
-
-	var theAd = 0;
-	var adImages = new Array("images/indexbanner1.jpg","images/indexbanner2.jpg","images/indexbanner3.jpg");
-
-	function rotate() {
-		theAd++;
-		if (theAd == adImages.length) {
-			theAd = 0;
-		}
-		document.getElementById("adBanner").src = adImages[theAd];
-
-	setTimeout(rotate, 3 * 1000);
-}
-
-	</script>
 </head>
 <body>
 	<div class="top">
@@ -41,7 +24,7 @@
 	<div class="content">
 		<div class="banner">
 			<div class="fla">
-			  <img src="images/indexbanner1.jpg" id="adBanner" alt="Ad Banner">
+			  <img src="images/indexbanner.jpg" >  <!-- id="adBanner" alt="Ad Banner" js部分代码 -->
 			</div>
 			<div class="wel"><h1>欢迎光临</h1>
 				<h4>我的大学——河北科技师范学院<br>坐落在美丽的秦皇岛市，校门口是<br>著名的奥体中心。还有举世闻名的<br>天下第一关——山海关。</h4><a href="#">更多</a>
@@ -73,3 +56,19 @@
 	</div>
 </body>
 </html>
+<!-- 	// <script>
+	// 	window.onload = rotate;
+	// 	var theAd = 0;
+	// 	var adImages = new Array("images/indexbanner1.jpg","images/indexbanner2.jpg","images/indexbanner3.jpg");
+
+	// 	function rotate() {
+	// 		theAd++;
+	// 		if (theAd == adImages.length) {
+	// 			theAd = 0;
+	// 		}
+	// 		document.getElementById("adBanner").src = adImages[theAd];
+
+	// 	setTimeout(rotate, 3 * 1000);
+	// 	}
+
+	// </script> -->
