@@ -71,13 +71,13 @@
 			left:50px;
 			text-align: center;
 			line-height: 100px;
-			transform:rotate(0deg);
+			transform:translate(0,0) rotate(0deg);
 			transition:all 5s;
 		}
 		.box2:hover{
-			transform:rotate(360deg);
-			top:200px;
-			left:1000px;
+			transform:translate(950px,200px) rotate(360deg);
+	/*		top:200px;
+			left:1000px;*/
 		}
 	</style>
 </head>
@@ -192,6 +192,7 @@
 		<div class="box">我会动<br>translate</div>
 		<div class="box1">scale</div>
 		<div class="box2">rotate</div>
+		<h1>当有两个transform属性时，不需要多次些transform<br>只需将两个属性之间加空格<br>如：transform:translats(0,0) rotate(180deg)</h1>
 	</div>
 	<div class="footer"><h3>版权所有 翻版必究</h3></div>
 </body>
