@@ -1,4 +1,17 @@
-*{margin:0;}
+*{
+	margin:0;
+	box-sizing:border-box;
+	padding: 0;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
 .top{
 	text-align: center;
 	background-color: lightseagreen;
@@ -18,8 +31,10 @@
 .footer{
 	text-align: center;
 	background-color: lightseagreen;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	color:#fff;
 	font-weight: normal;
+	font-size: 24px;
+	line-height: 48px;
 }

@@ -17,6 +17,7 @@ body{
 }
 a{
 	text-decoration: none;
+	color: #fff;
 }
 ul{
 	list-style: none;
@@ -30,6 +31,7 @@ ul{
 	padding-top: 25px;
 	position: fixed;
 	width: 100%;
+	color:#fff;
 }
 .main{
 	padding-top: 150px;
@@ -70,4 +72,12 @@ li a:hover{
 .main .right p{
 	color:rgba(119,119,119,0.7);
 	margin-top: 10px;
+}
+.footer{
+	padding:50px;
+	line-height: 66px;
+	text-align: center;
+	color:#fff;
+	font-size: 24px;
+	background-color: teal;
 }
