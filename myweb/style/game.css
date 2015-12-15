@@ -1,6 +1,12 @@
 .top-inner .thi{color: #66a738;}
-.banner{clear:both;padding-bottom: 30px;height: 336px;}
-.left{float:left;}
+.banner{
+	clear:both;
+	padding-bottom: 30px;
+	height: 336px;
+}
+.left{
+	float:left;
+}
 video{
 	float:left;
 	margin:0 10px;
@@ -8,11 +14,15 @@ video{
 	width:448px;
 }
 .right{float:left;}
-
-.banner .thi{width: 246px;height: 165px;margin-bottom: 6px;background-image: url(../images/game1.jpg);box-shadow: 0px 0px 2px 3px #041b24 inset;}
-.banner .for{width: 246px;height: 165px;background-image: url(../images/game3.jpg);box-shadow: 0px 0px 2px 3px #041b24 inset;}
-.banner .fir{width: 246px;height: 165px;margin-bottom: 6px;background-image: url(../images/game2.jpg);box-shadow: 0px 0px 2px 3px #041b24 inset;}
-.banner .sec{width: 246px;height: 165px;background-image: url(../images/game4.jpg);box-shadow: 0px 0px 2px 3px #041b24 inset;}
+.banner .thi,.for,.fir,.sec{
+	width: 246px;
+	height: 165px;
+	box-shadow: 0px 0px 2px 3px #041b24 inset;
+}
+.banner .thi{margin-bottom: 6px;background-image: url(../images/game1.jpg);}
+.banner .for{background-image: url(../images/game3.jpg);}
+.banner .fir{margin-bottom: 6px;background-image: url(../images/game2.jpg);}
+.banner .sec{background-image: url(../images/game4.jpg);}
 .banner a{
 	text-decoration: none;
 	width: 246px;
