@@ -24,11 +24,11 @@ ul{
 }
 /*section css*/
 .top{
-	height: 150px;
+	height: 140px;
 	text-align: center;
 	background-color: lightseagreen;
-	line-height: 36px;
-	padding-top: 25px;
+	line-height: 28px;
+	padding: 30px;
 	position: fixed;
 	width: 100%;
 	color:#fff;
@@ -39,7 +39,8 @@ ul{
 	margin:0 auto;	
 }
 li{
-	margin-top: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 li a{
 	display: block;
@@ -74,7 +75,7 @@ li a:hover{
 	margin-top: 10px;
 }
 .footer{
-	padding:50px;
+	padding:30px;
 	line-height: 66px;
 	text-align: center;
 	color:#fff;
