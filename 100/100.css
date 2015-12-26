@@ -28,15 +28,13 @@ ul{
 	background-color: lightseagreen;
 	line-height: 1.6;
 	padding: 20px;
-	position: fixed;
 	width: 100%;
 	color:#fff;
-	top:0px;
 }
 .main{
-	padding-top: 130px;
 	width: 90%;
-	margin:0 auto;	
+	margin:0 auto;
+	max-width: 800px;
 }
 li{
 	margin-top: 10px;
@@ -51,22 +49,30 @@ li a:hover{
 	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 20px 0 rgba(0, 0, 0, 0.12);
 }
 .main .left{
-	float:left;
-	width: 8%;
-	height: 90px;
+	height: 50px;
 	background-color: #00bcd4;
 	color:#fff;
 	text-align: center;
-	line-height: 90px;
+	line-height: 50px;
 }
 .main .right{
-	width: 92%;
 	height: 90px;
-	float:left;
 	color:#777777;
 	padding-left: 10px;
 	padding-top: 10px;
-	overflow: scroll;
+	text-align: center;	
+}
+@media (min-width: 764px){
+	.main .left{
+		width: 4rem;
+		float: left;
+		height: 90px;
+		line-height: 90px;
+	}
+	.main .right{
+		float: left;
+		text-align: left;
+	}
 }
 .main .right h2{
 	font-weight: normal;
@@ -81,5 +87,5 @@ li a:hover{
 	text-align: center;
 	color:#fff;
 	font-size: 24px;
-	background-color: teal;
+	background-color: lightseagreen;
 }
