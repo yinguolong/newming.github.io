@@ -24,18 +24,18 @@ ul{
 }
 /*section css*/
 .top{
-	height: 140px;
 	text-align: center;
 	background-color: lightseagreen;
-	line-height: 28px;
-	padding: 30px;
+	line-height: 1.6;
+	padding: 20px;
 	position: fixed;
 	width: 100%;
 	color:#fff;
+	top:0px;
 }
 .main{
-	padding-top: 150px;
-	width: 620px;
+	padding-top: 130px;
+	width: 90%;
 	margin:0 auto;	
 }
 li{
@@ -52,7 +52,7 @@ li a:hover{
 }
 .main .left{
 	float:left;
-	width: 50px;
+	width: 4rem;
 	height: 90px;
 	background-color: #00bcd4;
 	color:#fff;
@@ -60,12 +60,12 @@ li a:hover{
 	line-height: 90px;
 }
 .main .right{
-	width: 570px;
 	height: 90px;
 	float:left;
 	color:#777777;
 	padding-left: 10px;
 	padding-top: 10px;
+	overflow: hidden;
 }
 .main .right h2{
 	font-weight: normal;
@@ -76,7 +76,7 @@ li a:hover{
 }
 .footer{
 	padding:30px;
-	line-height: 66px;
+	line-height: 2;
 	text-align: center;
 	color:#fff;
 	font-size: 24px;
