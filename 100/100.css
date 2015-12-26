@@ -52,7 +52,7 @@ li a:hover{
 }
 .main .left{
 	float:left;
-	width: 4rem;
+	width: 8%;
 	height: 90px;
 	background-color: #00bcd4;
 	color:#fff;
@@ -60,12 +60,13 @@ li a:hover{
 	line-height: 90px;
 }
 .main .right{
+	width: 92%;
 	height: 90px;
 	float:left;
 	color:#777777;
 	padding-left: 10px;
 	padding-top: 10px;
-	overflow: hidden;
+	overflow: scroll;
 }
 .main .right h2{
 	font-weight: normal;
