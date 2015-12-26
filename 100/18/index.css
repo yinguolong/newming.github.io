@@ -65,7 +65,7 @@ h2{
 		opacity: 0.2;
 	}
 }
--webkit-@keyframes la{
+@-webkit-keyframes la{
 	from{
 		transform:scale(0,0) translate(0px ,0);
 		opacity: 1;
