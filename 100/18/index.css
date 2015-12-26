@@ -65,6 +65,16 @@ h2{
 		opacity: 0.2;
 	}
 }
+-webkit-@keyframes la{
+	from{
+		transform:scale(0,0) translate(0px ,0);
+		opacity: 1;
+	}
+	to{
+		transform:scale(1,1) translate(-300px ,0);
+		opacity: 0.2;
+	}
+}
 .box5{
 	clear: both;
 	width: 200px;

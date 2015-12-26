@@ -29,6 +29,17 @@ body{
 	87.5%{margin-left: 0px;}
 	100%{margin-left: 0px;}
 }
+-webkit-@keyframes fade{
+	0%{margin-left: 0px;}
+	12.5%{margin-left: -620px;}
+	25%{margin-left: -620px;}
+	37.5%{margin-left: -1240px;}
+	50%{margin-left: -1240px;}
+	62.5%{margin-left: -620px;}
+	75%{margin-left: -620px;}
+	87.5%{margin-left: 0px;}
+	100%{margin-left: 0px;}
+}
 .box{
 	width: 100px;
 	height: 100px;
