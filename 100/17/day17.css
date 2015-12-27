@@ -17,6 +17,7 @@ body{
 .hero img{
 	margin-left: 0px;
 	animation:fade 16s ease 2s infinite ;
+	-webkit-animation:fade 16s ease 2s infinite ;
 }
 @keyframes fade{
 	0%{margin-left: 0px;}

@@ -54,6 +54,7 @@ h2{
 	background-color: #FFC107;
 	border-radius: 50%;
 	animation:la 0.7s ease infinite;
+	-webkit-animation:la 0.7s ease infinite;
 }
 @keyframes la{
 	from{
