@@ -40,6 +40,7 @@ ul{
 	cursor: pointer;
 	border-radius: 50%;
 	background-color: rgba(126,140,223,0);
+	-webkit-transition:background-color 0.8s;
 	transition:background-color 0.8s;
 }
 .nav .button:hover{
@@ -70,11 +71,14 @@ ul{
 	background-color: white;
 	text-align: center;
 	padding-top: 80px;
+	-webkit-transition:all 0.3s .2s;
 	transition: all 0.3s .2s;
-	transform:translateX(-100%);
+	-webkit-transform:translateX(-100%);
+	        transform:translateX(-100%);
 }
 .menu.move{
-	transform:translateX(0%);
+	-webkit-transform:translateX(0%);
+	        transform:translateX(0%);
 }
 .menu li{
 	list-style: none;
@@ -150,6 +154,7 @@ ul{
 .main li a{
 	display: block;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	-webkit-transition:box-shadow 1s;
 	transition:box-shadow 1s;
 }
 .main li a:hover{
