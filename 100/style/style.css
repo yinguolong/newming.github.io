@@ -20,8 +20,6 @@ body{
 	background-color: lightseagreen;
 	padding-top: 30px;
 	padding-bottom: 30px;
-}
-.top h1,h3{
 	color:#fff;
 }
 .top h3{
@@ -31,12 +29,11 @@ body{
 	text-decoration: none;
 	color:#ddd;
 }
-.footer{
+.footer h3{
 	text-align: center;
 	background-color: lightseagreen;
 	padding: 40px;
-	color:#fff;
-	font-weight: normal;
 	font-size: 1.4rem;
 	line-height: 1.5;
+	color:#fff;
 }
