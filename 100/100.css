@@ -212,5 +212,24 @@ ul{
 	line-height: 50px;
 	font-size: 1.4rem;
 	right: 10%;
-	bottom: 10%
+	bottom: 15%
+}
+.jump a{
+	color:#777777;
+	width: 4rem;
+	height: 2rem;
+	display: block;
+	background-color: #333;
+	text-align: center;
+	line-height: 2rem;
+	border-radius: 5px;
+	margin: 10px 0;
+}
+.jump .num1{
+	margin-left: 2rem;
+	float: left;
+}
+.jump .num2{
+	margin-right: 2rem;
+	float:right;
 }

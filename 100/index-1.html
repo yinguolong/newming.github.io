@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<script src="script/jQuery.js"></script>
+	<link rel="shortcut icon" href="25/littlelogo.png">
+	<link rel="stylesheet" href="29/css/font-awesome.min.css">
+	<title>百日百页面</title>
+	<link rel="stylesheet" href="100.css">
+</head>
+<body>
+	<div class="non" id="top"></div><!-- 为了top热点做的 -->
+	<a href="#top"><div class="skip"><p>top</p></div></a><!-- 热点 -->
+	<div class="hei"></div><!-- 黑色的大盒子 -->
+	<div class="nav"><div class="button"><i class="icon-reorder"></i></div><!-- 侧边导航栏 -->
+	</div>	
+	<div class="menu">
+			<p>Modern Demo</p>
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="index.html">登录</a></li>
+				<li><a href="index.html">注册</a></li>
+			</ul>
+	</div>
+	<div class="header">
+		<ul>
+			<li><a href="index.html">注册</a></li>
+			<li><a href="index.html">登录</a></li>
+			<li><a href="index.html">首页</a></li>
+		</ul>
+	</div>
+	<div class="top">
+		<h2>代码如画笔，百日百页面</h2>
+		<h4>课程笔记：<a href="http://dj.haoduoshipin.com">好多视频网</a></h4>
+		<h4>部分属性测试：<a href="http://www.cssmatic.com/">www.cssmatic.com</a></h4>
+	</div>
+	<div class="main clearfix">
+		<ul>
+			<li>
+				<a href="41" class="item clearfix"><div class="left">41</div>
+				<div class="right"><h2>JavaScript 简介</h2><p>2016.1.4</p></div></a>
+			</li>
+			
+		</ul>
+		<div class="jump clearfix">
+			<a href="index.html" class="num1">上一页</a>
+			<a href="index-1.html" class="num2">下一页</a>
+		</div>
+	</div>
+	<div class="footer">Nobody said that it'll be easy,then I could find a way make a way.</div>
+	<!-- 超级劲爆的一次制作，主要体会制作流程 -->
+	<script>
+	$('.button').click(function(){
+		console.log("hahahah");
+		$('.menu').addClass('move');
+		$('.hei').addClass('alpha');
+	});
+	$('.hei').click(function(){
+		$('.menu').removeClass('move');
+		$('.hei').removeClass('alpha');
+	});
+	$('.menu').click(function(){
+		$('.menu').removeClass('move');
+		$('.hei').removeClass('alpha');
+	});
+	</script>
+</body>
+</html>
