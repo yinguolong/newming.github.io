@@ -84,18 +84,10 @@ x.innerHTML="Hello JavaScript";    //改变内容
 		<p id="demo">
 			JavaScript 能改变 HTML 元素的内容。
 		</p>
-		<script>
-			function myFunction()
-		{
-			x=document.getElementById("demo");  // 找到元素
-			x.innerHTML="Hello JavaScript!";    // 改变内容
-			}
-		</script>
 		<button type="button" onclick="myFunction()">点击这里</button>
 
 		<p>经常看到 document.getElementByID("some id")。这个方法是 HTML DOM 中定义的。</p>
 		<p>DOM（文档对象模型）是用以访问 HTML 元素的正式 W3C 标准。</p>
-		<p>这个有些问题，我不理解，script 要写到 button 前，可能是先定义事件，才能执行onclick</p>
 		<div class="xian"></div>
 
 		<h3>还有其他很多功能，这里就不罗列了，我也不太懂......</h3>
@@ -110,6 +102,12 @@ x.innerHTML="Hello JavaScript";    //改变内容
 	<script>
 		document.write("<h1>This is a heading</h1>");
 		document.write("<p>This is a paragraph.</p>");
-	</script>
+	
+			function myFunction()
+		{
+			x=document.getElementById("demo");  // 找到元素
+			x.innerHTML="Hello JavaScript!";    // 改变内容
+		};
+		</script>
 </body>
 </html>
