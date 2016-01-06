@@ -214,6 +214,10 @@ ul{
 	right: 10%;
 	bottom: 15%
 }
+.jump{
+	width: 50%;
+	margin: 0 auto;
+}
 .jump a{
 	color:#777777;
 	width: 4rem;
@@ -224,12 +228,15 @@ ul{
 	line-height: 2rem;
 	border-radius: 5px;
 	margin: 10px 0;
+	-webkit-transition:color 0.5s;
+	transition:color 0.5s;
+}
+.jump a:hover{
+	color:#fff;
 }
 .jump .num1{
-	margin-left: 2rem;
 	float: left;
 }
 .jump .num2{
-	margin-right: 2rem;
 	float:right;
 }
