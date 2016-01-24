@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>将值传递给函数</title>
+	<title>处理数组</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="shortcut icon" href="../25/littlelogo.png">
 	<link rel="stylesheet" href="../style/style.css">
@@ -19,6 +19,9 @@
 		.main pre{
 			overflow: auto;
 			background-color: #333;
+		}
+		.main pre span{
+			color:#fff;
 		}
 		table{
 			border-collapse: collapse;
@@ -39,8 +42,8 @@
 	</style>
 </head>
 <body>
-	<div class="top"><h1>BINGO卡片（2）</h1>
-		<h3>日期：2016.1.14</h3>
+	<div class="top"><h1>BINGO卡片（4）</h1>
+		<h3>日期：2016.1.18</h3>
 	</div>
 	<div class="main">
 		<audio controls="controls" autoplay="autoplay" hidden="hidden" loop="loop">
@@ -97,25 +100,34 @@
 
 		<p><a href="index.html">Click here</a> to create a new card</p>
 
-		<p>通过将值传递给setSquare()函数，脚本更容易阅读和理解。</p>
+		<p>通过添加数组，使卡片的没列具有不同的数值范围。这里需要一定的数学知识呢。</p>
+		<p>另外需要注意写法，尤其是在调用时，数组编号是从零开始，用[]括住。</p>
 <pre>
 window.onload = initAll;
 
 function initAll () {
-	for (var i = 0; i < 24 ; i++) {
-		setSquare(i);
+	if (document.getElementById){
+		for (var i = 0; i < 24 ; i++) {
+			setSquare(i);
+		}
+	}
+	else {
+		alert("Sorry,your browser doesn't support this script.")
 	}
 }
 
 function setSquare(thisSquare){
 	var currSquare = "square" + thisSquare;
-	var newNum = Math.floor(Math.random() * 75 ) + 1;
-
+	<span>
+	var colPlace = new Array(0,0,0,0,0,1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,4);
+	var colBasic = colPlace [thisSquare] * 15;
+	var newNum = colBasic + Math.floor(Math.random() * 15) + 1;
+	</span>
 	document.getElementById(currSquare).innerHTML = newNum;
 }
 </pre>
 	</div>
 
-	<div class="footer"><h3>There are many more preple trying to meet the right person than to become the right person.<br>很多人想遇到对的人，而不是让自己成为对的人。(Gloria Steinem)</h3></div>
+	<div class="footer"><h3>Satisifaction lies in the effort,not in the attainment.Full effort is full victory.<br>满足感在于不断的努力，而不是现有成就。全心努力定会胜利满满。</h3></div>
 </body>
 </html>
