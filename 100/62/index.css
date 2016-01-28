@@ -112,7 +112,7 @@
 	        transform:translateX(0%);
 }
 .button{
-	position: fixed;
+	position: absolute;
 	top:20px;
 	left: 20px;
 	background-color: green;
