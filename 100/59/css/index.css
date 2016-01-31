@@ -9,7 +9,7 @@ img{-webkit-transition:all 0.7s ease-out;-moz-transition:all 0.7s ease-out;-o-tr
 #section0 img{height:100%;margin:40px 0 0 0}
 #section1 img{position:absolute;left:40px;top:100px}
 #section1 .box{position:absolute;top:50%;left:50%;margin-top:-192px;margin-left:89px;width:395px;z-index:1}
-#section1 .imgsContainer{display:block;position:absolute;z-index:1;top:42%;left:58%;margin-top:-325px;margin-left:-747px;width:800px;height:696px}
+#section1 .imgsContainer{display:block;position:absolute;z-index:1;top:42%;left:58%;margin-top:-325px;margin-left:-747px;width:800px;height:696px;}
 #section1 img{height:100%}
 @media all and (min-width:620px) and (max-width:800px){#section1 .imgsContainer{margin-top:-278px;margin-left:-685px;width:647px;height:563px}
 }
@@ -19,7 +19,7 @@ img{-webkit-transition:all 0.7s ease-out;-moz-transition:all 0.7s ease-out;-o-tr
 #iphone2.active{-webkit-transform:translate3d(-134px,0px,0px);-moz-transform:translate3d(-134px,0px,0px);-ms-transform:translate3d(-134px,0px,0px);transform:translate3d(-134px,0px,0px)}
 #iphone3{z-index:12}
 #iphone3.active{-webkit-transform:translate3d(213px,0px,0px);-moz-transform:translate3d(213px,0px,0px);-ms-transform:translate3d(213px,0px,0px);transform:translate3d(213px,0px,0px)}
-#iphone4{z-index:11;left:140px}
+#iphone4{z-index:11;left:140px;}
 #iphone4.active{-webkit-transform:translate3d(548px,0px,0px);-moz-transform:translate3d(548px,0px,0px);-ms-transform:translate3d(548px,0px,0px);transform:translate3d(548px,0px,0px)}
 #section2 img{position:absolute}
 #section2 .imgsContainer,#staticImg .imgsContainer,#section3 .imgsContainer{position:absolute;z-index:1;left:50%;display:block;margin-top:-288px;margin-left:-636px;width:0;height:0;-webkit-transition:all 1.2s ease-in-out;-moz-transition:all 1.2s ease-in-out;-o-transition:all 1.2s ease-in-out;transition:all 1.2s ease-in-out}
