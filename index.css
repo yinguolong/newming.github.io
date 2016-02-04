@@ -46,6 +46,7 @@ a, img {
 	background-color:#1976D2;
 	width: 4rem;
 	height: 4rem;
+	font-size: 2rem;
 	border-radius: 50%;
 	text-align: center;
 	line-height: 4rem;
@@ -159,10 +160,10 @@ a, img {
 	border-top-right-radius:5px;
 	background-color: #000;
 	opacity: 0;
-	transition:all 0.8s;
+	transition:all 0.6s;
 }
 .contain .contain-image:hover:before{
-	opacity: 0.6;
+	opacity: 0.4;
 }
 
 /*标题及时间*/
