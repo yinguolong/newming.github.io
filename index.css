@@ -110,7 +110,6 @@ a, img {
 }
 .contain{
 	width: 100%;
-	max-width: 300px;
 	margin: 0 auto;
 	background-color: #fff;
 	border-top-left-radius:5px;
