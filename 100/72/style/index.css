@@ -49,9 +49,9 @@ div#music > img.music_play {
 /* page1 */
 div#page1 { position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 2; }
 div#page1 > div.bg { background: url('../images/p1_bg.jpg') no-repeat center center; background-size: 100% 100%; }
-div#page1 > div.p1_lantern { font-size: 3.506rem; position: absolute; z-index: 0; top: 0; right: 0; left: 0; box-sizing: border-box; width: 45vw; height: 71.2vh; margin: auto; padding-top: 31vh; text-align: center; color: #fff; background: url('../images/p1_lantern.png') no-repeat bottom center; background-size: 100%; }
+div#page1 > div.p1_lantern { font-size: 3.506rem; position: absolute; z-index: 0; top: -3.4%; right: 0; left: 0; box-sizing: border-box; width: 45vw; height: 71.2vh; margin: auto; padding-top: 31vh; text-align: center; color: #fff; background: url('../images/p1_lantern.png') no-repeat bottom center; background-size:100% 100%; }
 /*div#page1 > div.p1_lantern > a { font-size: 3.506rem; color: #fff; }*/
-div#page1 > div.p1_lantern:before { position: absolute; z-index: -1; top: 0; right: 0; bottom: 0; left: 0; width: 30vw; height: 30vw; margin: auto; content: ''; opacity: .5; border-radius: 50%; background: #d60b3b;
+div#page1 > div.p1_lantern:before { position: absolute; z-index: -1; top: 0; right: 0; bottom: 0; left: 0; width: 30vw; height: 30vw; margin: auto; content: ""; opacity: .5; border-radius: 50%; background: #d60b3b;
     -webkit-box-shadow: 0 0 10vw 10vw #d60b3b;
          -o-box-shadow: 0 0 10vw 10vw #d60b3b;
             box-shadow: 0 0 10vw 10vw #d60b3b;
@@ -257,7 +257,7 @@ div#page3 > div.couplet {
     100% { width: 22.8125vw; }
 }
 
-div#page3 > div.p3_blessing       { position: absolute; right: 0; bottom: 8vh; left: 0; width: 32vw; height: 32vw; margin: auto; background: url('../images/p3_blessing.png') no-repeat center center; background-size:100% 100%;
+div#page3 > div.p3_blessing       { position: absolute; right: 0; bottom: 6vh; left: 0; width: 32vw; height: 32vw; margin: auto; background: url('../images/p3_blessing.png') no-repeat center center; background-size:100% 100%;
     -webkit-animation: p3_blessing 2s linear infinite;
          -o-animation: p3_blessing 2s linear infinite;
             animation: p3_blessing 2s linear infinite;
