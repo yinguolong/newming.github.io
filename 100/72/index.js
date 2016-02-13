@@ -13,7 +13,7 @@ window.onload = function() {
     }, false);
 
 
-    music.addEventListener("touchstart", function() {
+    music.addEventListener("click", function() {
         if (audio.paused) {
             audio.play();
             this.childNodes[1].setAttribute("class","music_disc music_play");
