@@ -177,7 +177,6 @@ a, img {
 .main .right{
 	height: 90px;
 	color:#777777;
-	padding-left: 10px;
 	padding-top: 10px;
 	text-align: center;	
 }
@@ -191,7 +190,15 @@ a, img {
 	.main .right{
 		float: left;
 		text-align: left;
+		padding-left: 10px;
 	}
+}
+@media (max-width: 764px){
+	/*标题大于260px时，显示省略号，防止挤下去。*/
+	width: 260px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap; 
 }
 .main .right h2{
 	font-weight: normal;
