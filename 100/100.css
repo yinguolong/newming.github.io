@@ -193,15 +193,12 @@ a, img {
 		padding-left: 10px;
 	}
 }
-@media (max-width: 764px){
-	/*标题大于260px时，显示省略号，防止挤下去。*/
-	width: 260px;
-	overflow: hidden;
-	text-overflow:ellipsis;
-	white-space: nowrap; 
-}
 .main .right h2{
 	font-weight: normal;
+	/*标题超出right范围时，显示省略号，防止挤下去。*/
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
 }
 .main .right p{
 	color:rgba(119,119,119,0.7);
