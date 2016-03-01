@@ -175,3 +175,8 @@ a, img {
 	color: rgba(0,0,0,0.5);
 	margin: 10px 10px;
 }
+
+/*post ul*/
+container ul{
+	padding-left: 1rem;
+}
