@@ -69,7 +69,7 @@ a, img {
 
 
 .banner{
-	background-image: url(images/banner-bg.jpg);
+	background-image: url(../images/banner-bg.jpg);
 	height: 300px;
 	-webkit-background-size: cover;
 	background-size: cover;

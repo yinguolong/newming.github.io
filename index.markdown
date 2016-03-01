@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<link rel="shortcut icon" href="images/littlelogo.png">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="stylesheet" href="index.css">
-	<title>钮旭明的个人网站</title>
-</head>
-<body>
-	<div class="top">
-		<div class="button"><a href="#">T</a></div>
-	</div>
+---
+layout: default
+---
 
 	<div class="banner clearfix">
 		<h1>Hello,I'm Newming!</h1>
@@ -39,5 +29,4 @@
 			<p class="date">2026.2.11</p>
 		</div>
 	</div>
-</body>
-</html>
+
