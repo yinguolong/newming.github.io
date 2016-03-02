@@ -196,6 +196,7 @@ a, img {
 .blogs{
 	color:#333;
 	margin: 0 auto;
+	padding: 2%;
 	max-width: 800px;
 	line-height: 1.8;
 }
