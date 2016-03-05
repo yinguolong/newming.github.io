@@ -19,7 +19,7 @@ title: markdown
 
 > 这里引用了比人的话。
 
-[我的git页面]（http://newming.github.io）
+[我的git页面](http://newming.github.io/)
 
 __这是粗体文字__  _这是斜体文字_
 
