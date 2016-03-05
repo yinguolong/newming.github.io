@@ -19,7 +19,7 @@ title: markdown
 2. 列表二
 3. 列表四
 
-> 这里引用了比人的话。
+> 这里引用了别人的话。
 
 [我的git页面](http://newming.github.io/)
 
