@@ -208,6 +208,9 @@ blockquote,code{
 	overflow: auto;
 	display: block;
 }
+code{
+	color:#000;
+}
 .blogs ul,ol{
 	list-style-position: inside;
 	padding-left: 15px;
