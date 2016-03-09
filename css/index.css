@@ -199,17 +199,18 @@ a, img {
 	padding: 2%;
 	max-width: 800px;
 	line-height: 1.8;
-	font-size: 1.6;
+	font-size: 1.2rem;
 }
 blockquote,code{
 	border-left: 5px solid #00BCD4;
 	background-color: #F0F0F0;
-	padding: 20px;
+	padding: 15px;
 	overflow: auto;
+	display: block;
 }
 .blogs ul,ol{
 	list-style-position: inside;
-	padding-left: 20px;
+	padding-left: 15px;
 }
 .blogs ul{
 	list-style-type: disc;
