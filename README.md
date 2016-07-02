@@ -86,3 +86,8 @@
 主要放置了我的学习笔记及课上做的小例子。
 
 ## 这是我的demo
+
+
+git config --global user.name 'newming'
+
+git config --global user.email 'newming@sina.'
